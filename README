@@ -1,0 +1,17 @@
+#git 命令操作#
+git init *
+git add *
+git commit -m '初始化项目版本'
+git clone  仓库
+git clone 仓库 本地目录
+如：git clone git://github.com/h0822m/test.git
+git clone git://github.com/h0822m/test.git mygit
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/h0822m/test.git
+git push -u origin master
+
+git remote add origin https://github.com/h0822m/test.git
+git push -u origin master 
